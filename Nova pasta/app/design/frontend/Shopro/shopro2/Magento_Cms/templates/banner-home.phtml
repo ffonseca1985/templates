@@ -1,0 +1,12 @@
+<div class="banner-home">
+	<?php echo $block->getLayout()->createBlock('Plazathemes\Bannerslider\Block\Bannerslider')->setTemplate('bannerslider.phtml')->toHtml();?> 
+	<div class="countdown-wrapper">
+		<div class="container">
+			<?php echo $block->getLayout()->createBlock('Plazathemes\Pricecountdown\Block\Pricecountdown')->setTemplate('saleslider.phtml')->toHtml();?> 
+		</div>
+	</div>	
+	<div class="container">
+		<?php echo $block->getLayout()->createBlock('Magento\Cms\Block\Block')->setBlockId('block_content')->toHtml();?>	
+		<?php echo $block->getLayout()->createBlock('Magento\Cms\Block\Block')->setBlockId('banner_static')->toHtml();?>
+	</div>
+</div>

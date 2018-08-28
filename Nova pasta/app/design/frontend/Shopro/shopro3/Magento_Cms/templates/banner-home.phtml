@@ -1,0 +1,36 @@
+<div class="banner-home">
+	<div class="bghome">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-3 col-sm-12 col-sms-12 ">
+				<div class="">
+				</div>
+			</div>		
+			<div class="col-md-9 col-sm-12 col-sms-12 ">
+				<div class="banner-slider">
+					<?php echo $block->getLayout()->createBlock('Plazathemes\Bannerslider\Block\Bannerslider')->setTemplate('bannerslider.phtml')->toHtml();?> 
+					<div class="top_content">
+						<?php echo $block->getLayout()->createBlock('Magento\Cms\Block\Block')->setBlockId('block_content')->toHtml();?>				
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	</div>
+	<?php echo $block->getLayout()->createBlock('Plazathemes\Producttab\Block\Producttab')->setTemplate('producttab.phtml')->toHtml();?>
+	<div class="container">
+		<?php echo $block->getLayout()->createBlock('Magento\Cms\Block\Block')->setBlockId('banner_top')->toHtml();?>	
+		<div class="row">
+			<div class="col-md-6 col-sm-12 col-xs-12">
+				<div class="countdown-wrapper">
+					<div class="">
+						<?php echo $block->getLayout()->createBlock('Plazathemes\Pricecountdown\Block\Pricecountdown')->setTemplate('saleslider.phtml')->toHtml();?> 
+					</div>
+				</div>	
+			</div>	
+			<div class="col-md-6 col-sm-12 col-xs-12">
+				<?php echo $block->getLayout()->createBlock('Plazathemes\Randomproductslider\Block\Products')->setTemplate('productslider.phtml')->toHtml();?> 
+			</div>	
+		</div>	
+	</div>	
+</div>

@@ -1,0 +1,16 @@
+<div class="banner-home">
+	<div class="bghome">
+		<div class="banner-slider">
+			<?php echo $block->getLayout()->createBlock('Plazathemes\Bannerslider\Block\Bannerslider')->setTemplate('bannerslider.phtml')->toHtml();?> 
+		</div>	
+		<div class="container">
+			<div class="top_content">
+				<?php echo $block->getLayout()->createBlock('Magento\Cms\Block\Block')->setBlockId('block_content')->toHtml();?>				
+			</div>
+		</div>
+	</div>
+	<?php echo $block->getLayout()->createBlock('Plazathemes\Producttab\Block\Producttab')->setTemplate('producttab.phtml')->toHtml();?>
+	<div class="container">
+		<?php echo $block->getLayout()->createBlock('Magento\Cms\Block\Block')->setBlockId('banner_top')->toHtml();?>	
+	</div>	
+</div>

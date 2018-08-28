@@ -1,0 +1,355 @@
+<?xml version="1.0"?>
+<ma_shopro>
+    <blocks>
+	
+		<block>
+            <title>Menu Link</title>
+            <identifier>pt_menu_links</identifier>
+            <content>
+				<![CDATA[
+<div class="menu-link">
+<ul>
+<li><a href="{{store url="blog"}}">Blog</a></li>
+<li><a href="{{store url="contact"}}">Contact Us</a></li>
+<li><a href="{{store direct_url="privacy-policy-cookie-restriction-mode"}}">Privacy Policy</a></li>
+</ul>
+</div>
+				]]>
+            </content>
+            <is_active>1</is_active>
+        </block>
+		<block>
+            <title>Contact Map</title>
+            <identifier>contact_map</identifier>
+            <content>
+				<![CDATA[
+<p><iframe style="border: 0;" src="https://www.google.com/maps/embed?pb=!1m23!1m12!1m3!1d774781.4431526576!2d-102.14621326758693!3d40.663171023783335!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m8!3e6!4m0!4m5!1s0x8776990919d7f7f9%3A0xc9896e33b10a3c8d!2sRoad+332%2C+Grant%2C+NE+69140%2C+Hoa+K%E1%BB%B3!3m2!1d40.8072002!2d-101.6463716!5e0!3m2!1svi!2s!4v1458726863548" width="100%" height="550" frameborder="0"></iframe></p>
+				]]>
+            </content>
+            <is_active>1</is_active>
+        </block>
+		<block>
+            <title>Header Hello</title>
+            <identifier>header_hello</identifier>
+            <content>
+				<![CDATA[
+<p class="hello">Default welcome mgs!</p>
+				]]>
+            </content>
+            <is_active>1</is_active>
+        </block>
+		<block>
+            <title>Header Phone</title>
+            <identifier>header_phone</identifier>
+            <content>
+				<![CDATA[
+<div class="header_phone">
+<div class="fa fa-volume-control-phone"></div>
+<div class="header_info">
+<p>Call us now</p>
+<span>(080) 123 4567 890</span></div>
+</div>
+				]]>
+            </content>
+            <is_active>1</is_active>
+        </block>
+		<block>
+            <title>Banner Static</title>
+            <identifier>banner_static</identifier>
+            <content>
+				<![CDATA[
+<div class="banner_static">
+<div class="row">
+<div class="col-sm-4 col-md-4 col-smb-12">
+<div class="static-box static-box1"><a href="{{store url='shop.html'}}"><img src="{{media url="wysiwyg/banner1.png"}}" alt="" /></a></div>
+</div>
+<div class="col-sm-4 col-md-4 col-smb-12">
+<div class="static-box static-box2"><a href="{{store url='shop.html'}}"><img src="{{media url="wysiwyg/banner2.png"}}" alt="" /></a></div>
+</div>
+<div class="col-sm-4 col-md-4 col-smb-12">
+<div class="static-box static-box3"><a href="{{store url='shop.html'}}"><img src="{{media url="wysiwyg/banner3.png"}}" alt="" /></a></div>
+</div>
+</div>
+</div>
+				]]>
+            </content>
+            <is_active>1</is_active>
+        </block>
+		<block>
+            <title>Block Content</title>
+            <identifier>block_content</identifier>
+            <content>
+				<![CDATA[
+<div class="block_content">
+<div class="row">
+<div class="col-sm-4 col-md-4 col-smb-12 col col1">
+<div class="image"><img src="{{media url="wysiwyg/image1.png"}}" alt="" /></div>
+<div class="box_des">
+<h3>Free shipping</h3>
+<p>on all orders over $50.00</p>
+</div>
+</div>
+<div class="col-sm-4 col-md-4 col-smb-12 col col2">
+<div class="image"><img src="{{media url="wysiwyg/image2.png"}}" alt="" /></div>
+<div class="box_des">
+<h3>Money back guarante</h3>
+<p>100% Money-back guarantee</p>
+</div>
+</div>
+<div class="col-sm-4 col-md-4 col-smb-12 col col3">
+<div class="image"><img src="{{media url="wysiwyg/image3.png"}}" alt="" /></div>
+<div class="box_des">
+<h3>24 hours support</h3>
+<p>24 / 7 from Monday to Friday</p>
+</div>
+</div>
+</div>
+</div>
+				]]>
+            </content>
+            <is_active>1</is_active>
+        </block>
+		<block>
+            <title>Footer Static</title>
+            <identifier>footer_static</identifier>
+            <content>
+				<![CDATA[
+<div class="footer-static">
+<div class="row">
+<div class=" col-sm-6 col-md-4 col-sms-12 col-smb-12">
+<div class="f-col f-col1">
+<div class="footer-logo footer-static-title"><a href="#"><img src="{{media url="wysiwyg/logofoo.png"}}" alt="" /></a></div>
+<div class="footer-static-content">
+<div class="footer-des">There are many variations of passages of Lorem Ipsum available, but the majorited have suffered alteration.</div>
+<div class="box1 box-footer">
+<div class="boxz fa fa-home">
+<h3>Address:</h3>
+169-C, Technohub, Dubai Silicon Oasis.</div>
+<div class="boxz fa fa-envelope-o">
+<h3>Mail us: :</h3>
+Support@plazathemes.com</div>
+<div class="boxz fa fa-phone">
+<h3>Phone: :</h3>
+(+800) 123 456 789)</div>
+<div class="link-web">
+<ul>
+<li><a class="face" href="#">face</a></li>
+<li><a class="twitter" href="#">twitter</a></li>
+<li><a class="google" href="#">google</a></li>
+<li><a class="youtube" href="#">youtube</a></li>
+<li><a class="printe" href="#">printe</a></li>
+<li><a class="instagram" href="#">instagram</a></li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="col-sm-6 col-md-8 col-sms-12 col-smb-12">
+<div class="row">
+<div class="col-md-12">
+<div class="box-news">{{block class="Magento\Newsletter\Block\Subscribe" name="form.subscribe" as="subscribe" before="-" template="subscribe.phtml"}}</div>
+</div>
+</div>
+<div class="row">
+<div class="col-md-4 col-sm-6 col-sms-6 col-smb-12">
+<div class="f-col f-col2">
+<div class="footer-static-title">
+<h2>My Account</h2>
+</div>
+<div class="footer-static-content">
+<ul>
+<li class="first"><a href="#">My Account</a></li>
+<li><a href="#">Brands</a></li>
+<li><a href="#">Gift Certificates</a></li>
+<li><a href="#">Affiliates</a></li>
+<li><a href="#">Wish List</a></li>
+</ul>
+</div>
+</div>
+</div>
+<div class="col-md-4 col-sm-6 col-sms-6 col-smb-12">
+<div class="f-col f-col3">
+<div class="footer-static-title">
+<h2>Information</h2>
+</div>
+<div class="footer-static-content">
+<ul>
+<li class="first"><a href="#">About Us</a></li>
+<li><a href="#">Delivery Information</a></li>
+<li><a href="#">Privacy Policy</a></li>
+<li><a href="#">Terms &amp; Conditions</a></li>
+<li><a href="#">FAQ</a></li>
+</ul>
+</div>
+</div>
+</div>
+<div class="col-md-4 col-sm-12 col-sms-12 col-smb-12">
+<div class="f-col f-col4">
+<div class="footer-static-title">
+<h2>CUSTOMER SERVICES</h2>
+</div>
+<div class="footer-static-content">
+<ul>
+<li class="first"><a href="#">Contact Us</a></li>
+<li><a href="#">Returns</a></li>
+<li><a href="#">Site Map</a></li>
+<li><a href="#">Specials</a></li>
+<li><a href="#">Order History</a></li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+				]]>
+            </content>
+            <is_active>1</is_active>
+        </block>
+		<block>
+            <title>Footer End</title>
+            <identifier>footer_end</identifier>
+            <content>
+				<![CDATA[
+<div class="footer_end">
+<div class="col-lg-6 col-md-6 col-sm-6 col-sms-12 col-xs-12">
+<div class="copyright">Copyright © 2018 <a href="http://www.plazathemes.com/">Plazathemes</a>. All Rights Reserved</div>
+</div>
+<div class="col-lg-6 col-md-6 col-sm-6 col-sms-12 col-xs-12">
+<div class="pay"><a href="#"><img src="{{media url="wysiwyg/payment.png"}}" alt="" /></a></div>
+</div>
+</div>
+				]]>
+            </content>
+            <is_active>1</is_active>
+        </block>	
+		<block>
+            <title>Banner Left</title>
+            <identifier>banner_left</identifier>
+            <content>
+				<![CDATA[
+<div class="banner_left"><img src="{{media url="wysiwyg/bn_lefft.png"}}" alt="" /></div>
+				]]>
+            </content>
+            <is_active>1</is_active>
+        </block>
+		<block>
+            <title>Banner Top</title>
+            <identifier>banner_top</identifier>
+            <content>
+				<![CDATA[
+<div class="banner_top">
+<div class="row">
+<div class="col-md-4 col-sm-4 col-xs-12 col1">
+<div class="bannerbox banerbox1"><a href="{{store url='electronics.html'}}"><img src="{{media url="wysiwyg/ads1.png"}}" alt="" /></a></div>
+</div>
+<div class="col-md-4 col-sm-4 col-xs-12 col1">
+<div class="bannerbox banerbox2"><a href="{{store url='electronics.html'}}"><img src="{{media url="wysiwyg/ads2.png"}}" alt="" /></a></div>
+<div class="bannerbox banerbox3"><a href="{{store url='electronics.html'}}"><img src="{{media url="wysiwyg/ads3.png"}}" alt="" /></a></div>
+</div>
+<div class="col-md-4 col-sm-4 col-xs-12 col1">
+<div class="bannerbox banerbox4"><a href="{{store url='electronics.html'}}"><img src="{{media url="wysiwyg/ads4.png"}}" alt="" /></a></div>
+</div>
+</div>
+</div>
+				]]>
+            </content>
+            <is_active>1</is_active>
+        </block>
+		<block>
+            <title>Banner Static H3</title>
+            <identifier>banner_static_h3</identifier>
+            <content>
+				<![CDATA[
+<div class="banner_static">
+<div class="row">
+<div class="col-sm-6 col-md-6 col-smb-12">
+<div class="static-box static-box1"><a href="{{store url='electronics.html'}}"><img src="{{media url="wysiwyg/adsstatic1.png"}}" alt="" /></a></div>
+</div>
+<div class="col-sm-6 col-md-6 col-smb-12">
+<div class="static-box static-box2"><a href="{{store url='electronics.html'}}"><img src="{{media url="wysiwyg/adsstatic2.png"}}" alt="" /></a></div>
+</div>
+</div>
+</div>
+				]]>
+            </content>
+            <is_active>1</is_active>
+        </block>
+		<block>
+            <title>Look Book</title>
+            <identifier>look_book</identifier>
+            <content>
+				<![CDATA[
+<div class="look_book">
+<div class="row_look">
+<div class="col col1 col-md-3 col-sm-3 col-sms-6 col-smb-12">
+<div class="look look1"><a href="{{store url='womens.html'}}"><img class="scal" src="{{media url="wysiwyg/gr1.jpg"}}" alt="" /></a></div>
+</div>
+<div class="col col2 col-md-3 col-sm-3 col-sms-6 col-smb-12">
+<div class="look look2"><a href="{{store url='womens.html'}}"><img class="scal" src="{{media url="wysiwyg/gr2.jpg"}}" alt="" /></a></div>
+</div>
+<div class="col col3 col-md-3 col-sm-3 col-sms-6 col-smb-12">
+<div class="look look3"><img class="scal" src="{{media url="wysiwyg/gr3.jpg"}}" alt="" />
+<div class="des">
+<h2>New Collection</h2>
+<h3>Save up to</h3>
+<p><span>75%</span> off</p>
+<a href="{{store url='womens.html'}}">Shop the lookbook</a></div>
+</div>
+</div>
+<div class="col col4 col-md-3 col-sm-3 col-sms-6 col-smb-12">
+<div class="look look4"><a href="{{store url='womens.html'}}"><img class="scal" src="{{media url="wysiwyg/gr4.jpg"}}" alt="" /></a></div>
+</div>
+</div>
+</div>
+				]]>
+            </content>
+            <is_active>1</is_active>
+        </block>
+		<block>
+            <title>Banner Static 6</title>
+            <identifier>banner_static_6</identifier>
+            <content>
+				<![CDATA[
+<div class="banner_static">
+<div class="row">
+<div class="col-sm-4 col-md-4 col-smb-12">
+<div class="static-box static-box1"><img src="{{media url="wysiwyg/cop1.jpg"}}" alt="" /><a class="but" href="{{store url='mens.html'}}"><span>Men</span></a></div>
+</div>
+<div class="col-sm-4 col-md-4 col-smb-12">
+<div class="static-box static-box2"><img src="{{media url="wysiwyg/cop2.jpg"}}" alt="" /><a class="but" href="{{store url='mens.html'}}"><span>Shoes</span></a></div>
+</div>
+<div class="col-sm-4 col-md-4 col-smb-12">
+<div class="static-box static-box3"><img src="{{media url="wysiwyg/cop3.jpg"}}" alt="" /><a class="but" href="{{store url='womens.html'}}"><span>Women</span></a></div>
+</div>
+</div>
+</div>
+				]]>
+            </content>
+            <is_active>1</is_active>
+        </block>
+		<block>
+            <title>cattab_57</title>
+            <identifier>cattab_57</identifier>
+            <content>
+				<![CDATA[
+<img src="{{media url="wysiwyg/banner_women.jpg"}}" alt="" />
+				]]>
+            </content>
+            <is_active>1</is_active>
+        </block>
+		<block>
+            <title>cattab_58</title>
+            <identifier>cattab_58</identifier>
+            <content>
+				<![CDATA[
+<img src="{{media url="wysiwyg/banner_men.jpg"}}" alt="" />
+				]]>
+            </content>
+            <is_active>1</is_active>
+        </block>
+		
+    </blocks>
+</ma_shopro>

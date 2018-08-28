@@ -1,0 +1,101 @@
+<?xml version="1.0" standalone="yes"?>  
+<bannerslider>
+<records>
+	<record> 
+		<name>A great selection of super brands</name>
+		<title1>70% off</title1>
+		<title2>on all furniture</title2>
+		<click_url>#</click_url> 
+		<image><![CDATA[Plazathemes/bannerslider/images/s/l/slider2.jpg]]></image>
+		<image_alt><![CDATA[]]></image_alt>
+		<description></description>
+		<order>0</order>
+		<store_id>1,2</store_id> 
+		<status>1</status> 
+	</record>
+	<record> 
+		<name>New Furniture Designs Ideals</name>
+		<title1>Save 20% on</title1>
+		<title2>New arrivals</title2>
+		<click_url>#</click_url>
+		<image><![CDATA[Plazathemes/bannerslider/images/s/l/slider1.jpg]]></image>
+		<image_alt><![CDATA[]]></image_alt>
+		<description></description>
+		<order>1</order>
+		<store_id>1,2</store_id> 
+		<status>1</status> 
+	</record>
+	<record> 
+		<name>A great selection of super brands</name>
+		<title1>70% off</title1>
+		<title2>on all store</title2>
+		<click_url>#</click_url>
+		<image><![CDATA[Plazathemes/bannerslider/images/x/l/xl1.jpg]]></image>
+		<image_alt><![CDATA[]]></image_alt>
+		<description></description>
+		<order>0</order>
+		<store_id>3</store_id> 
+		<status>1</status> 
+	</record>
+	<record> 
+		<name>Lenovo Laptops Collections</name>
+		<title1>Save 20% on</title1>
+		<title2>New arrivals</title2>
+		<click_url>#</click_url>
+		<image><![CDATA[Plazathemes/bannerslider/images/x/l/xl2.jpg]]></image>
+		<image_alt><![CDATA[]]></image_alt>
+		<description></description>
+		<order>0</order>
+		<store_id>3</store_id> 
+		<status>1</status> 
+	</record>
+	<record> 
+		<name>New Headphones Sport Style</name>
+		<title1>Save 20% on</title1>
+		<title2>New arrivals</title2>
+		<click_url>#</click_url>
+		<image><![CDATA[Plazathemes/bannerslider/images/s/d/sd1.jpg]]></image>
+		<image_alt><![CDATA[]]></image_alt>
+		<description></description>
+		<order>0</order>
+		<store_id>4</store_id> 
+		<status>1</status> 
+	</record>
+	<record> 
+		<name>New Headphones Sport Style</name>
+		<title1>Save 20% on</title1>
+		<title2>New Arrivals</title2>
+		<click_url>#</click_url>
+		<image><![CDATA[Plazathemes/bannerslider/images/s/d/sd2.jpg]]></image>
+		<image_alt><![CDATA[]]></image_alt>
+		<description></description>
+		<order>0</order>
+		<store_id>4</store_id> 
+		<status>1</status> 
+	</record>
+	<record> 
+		<name></name>
+		<title1></title1>
+		<title2>The new neutrals</title2>
+		<click_url>#</click_url>
+		<image><![CDATA[Plazathemes/bannerslider/images/l/i/lide1.jpg]]></image>
+		<image_alt><![CDATA[]]></image_alt>
+		<description>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</description>
+		<order>0</order>
+		<store_id>5,6</store_id> 
+		<status>1</status> 
+	</record>
+	<record> 
+		<name></name>
+		<title1></title1>
+		<title2>Ladies Top</title2>
+		<click_url>#</click_url>
+		<image><![CDATA[Plazathemes/bannerslider/images/l/i/lide2.jpg]]></image>
+		<image_alt><![CDATA[]]></image_alt>
+		<description>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</description>
+		<order>0</order>
+		<store_id>5,6</store_id> 
+		<status>1</status>
+	</record>
+</records>
+</bannerslider>
